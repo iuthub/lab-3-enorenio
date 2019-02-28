@@ -1,0 +1,34 @@
+body {
+  background-image: url(images/bg.png);
+  background-size: auto;
+}
+.wrapper {
+  border: 10px white solid;
+  background-color: white;
+  margin: 0 10% 0 10%;
+}
+.headline {
+  background-color: #A8F0F0;
+  overflow: auto;
+}
+.headline > * {
+  float: right;
+  clear: both;
+}
+.post {
+  border: 4px #C2E9E9 solid;
+  background-color: #E8FBFB;
+  padding: 5px;
+  margin: 10px 0 0 0;
+  overflow: auto;
+}
+.date > span {
+  border-bottom: 2px blue dashed;
+}
+.subtext {
+  font-size: 14pt;
+}
+
+img {
+  float: right;
+}
