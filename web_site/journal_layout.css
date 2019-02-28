@@ -6,6 +6,7 @@ body {
   border: 10px white solid;
   background-color: white;
   margin: 0 10% 0 10%;
+  overflow: auto;
 }
 .headline {
   background-color: #A8F0F0;
@@ -21,6 +22,8 @@ body {
   padding: 5px;
   margin: 10px 0 0 0;
   overflow: auto;
+  width: 65%;
+  float: right;
 }
 .date > span {
   border-bottom: 2px blue dashed;
@@ -28,7 +31,18 @@ body {
 .subtext {
   font-size: 14pt;
 }
-
 img {
   float: right;
+}
+.friends {
+  background-color: #99E0E0;
+  border: 5px #029198 solid;
+  padding: 5px;
+  margin: 10px;
+  float: left;
+  clear: both;
+  width: 150px;
+}
+*:not(html):not(.wrapper):hover {
+  background-color: #FFFF00;
 }
